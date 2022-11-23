@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>objects</title>
+</head>
+<body>
+    <script>
+        // Objects
+        var a={
+            fname:'Arjun',
+            lname:'Diwakar',
+            age:22,
+            email:'jundiwakar@gmail.com',
+            favmovies:['dhoom','sholar','ddlj'],
+            salary:function(){
+                return 25000;
+            },
+            fullname:function(){
+                return this.fname+" "+this.lname;
+            }
+        }
+        console.log(a.fullname());
+    </script>
+</body>
+</html>
